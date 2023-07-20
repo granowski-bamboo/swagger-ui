@@ -17,6 +17,7 @@ import deepLinkingPlugin from "core/plugins/deep-linking"
 import filter from "core/plugins/filter"
 import onComplete from "core/plugins/on-complete"
 import safeRender from "core/plugins/safe-render"
+import iconsPlugin from "core/plugins/icons"
 
 import OperationContainer from "core/containers/OperationContainer"
 
@@ -199,6 +200,7 @@ export default function () {
     filter,
     onComplete,
     requestSnippets,
+    iconsPlugin,
     safeRender(),
   ]
 }
